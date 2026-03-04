@@ -24,7 +24,7 @@ jobs:
         run: echo "Running tests..."
 
       - name: Simulate Test
-        run: sleep 3
+        run: sleep 4
 
   deploy:
     needs: test
